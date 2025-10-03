@@ -1,6 +1,6 @@
 from typing import List
 from urllib.parse import urljoin
-from adapters_base import BaseAdapter
+from adapters.base import BaseAdapter
 
 class GenericPDFAdapter(BaseAdapter):
     VENDOR_NAME = "generic_pdf"
