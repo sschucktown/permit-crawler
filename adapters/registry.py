@@ -1,5 +1,5 @@
 from typing import List, Type
-from adapters_base import BaseAdapter
+from adapters.base import BaseAdapter
 from adapters_accela import AccelaAdapter
 from adapters_civicplus import CivicPlusAdapter
 from adapters_tyler import TylerAdapter
