@@ -1,6 +1,6 @@
 import re
 from typing import List
-from adapters_base import BaseAdapter
+from adapters.base import BaseAdapter
 
 ACCELA_SIGNATURES = [
     r"/CitizenAccess/",
