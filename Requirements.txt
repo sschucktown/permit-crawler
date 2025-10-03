@@ -1,0 +1,8 @@
+supabase
+requests
+beautifulsoup4
+pdfplumber
+pytesseract
+Pillow
+geopandas
+logging
