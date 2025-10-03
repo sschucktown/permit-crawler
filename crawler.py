@@ -1,9 +1,11 @@
-import os
+import sys, os
 import requests
 from supabase import create_client
 
 from adapters.registry import detect_adapter
 from utils import setup_logger, get_supabase_client
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 
 logger = setup_logger()
 
